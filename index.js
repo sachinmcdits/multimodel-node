@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: "https://mcadahj.netlify.app",
+  origin: "https://mcdits.netlify.app",
   methods: ["GET", "POST"],
   credentials: true
 }));
