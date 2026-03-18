@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: "http://localhost:5173", // your React app
+  origin: "https://mcadahj.netlify.app",
   methods: ["GET", "POST"],
   credentials: true
 }));
